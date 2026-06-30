@@ -7,7 +7,7 @@
     "light": "#FFB066",
     "dark": "#E07B1F"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "pages": [
       {
@@ -75,8 +75,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/vixi-logo.png",
+    "dark": "/logo/vixi-logo.png"
   },
   "navbar": {
     "primary": {

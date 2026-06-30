@@ -1,34 +1,75 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Vixi",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF933F",
+    "light": "#FFB066",
+    "dark": "#E07B1F"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Getting started",
         "pages": [
           "index",
-          "quickstart"
+          "getting-started/account",
+          "getting-started/dashboard"
+        ]
+      },
+      {
+        "group": "Create a course",
+        "pages": [
+          "creating/overview",
+          "creating/wizard",
+          "creating/other-paths"
+        ]
+      },
+      {
+        "group": "Customize your course",
+        "pages": [
+          "sources",
+          "avatars",
+          "design"
+        ]
+      },
+      {
+        "group": "Edit & publish",
+        "pages": [
+          "editing",
+          "publishing"
+        ]
+      },
+      {
+        "group": "Learners & growth",
+        "pages": [
+          "learners",
+          "earnings",
+          "premium",
+          "marketing"
+        ]
+      },
+      {
+        "group": "Author verification",
+        "pages": [
+          "author-verification"
+        ]
+      },
+      {
+        "group": "Account & help",
+        "pages": [
+          "settings",
+          "help"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Vixi website",
+          "href": "https://vixiai.co",
+          "icon": "globe"
         }
       ]
     }
@@ -38,16 +79,10 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Open Vixi",
+      "href": "https://create.vixiai.co"
     }
   },
   "contextual": {
@@ -55,18 +90,7 @@
       "copy",
       "view",
       "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "claude"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
